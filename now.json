@@ -1,5 +1,8 @@
 {
     "version": 2,
+    "env": {
+      "LOGIN_PASS": "@login-pass"
+    },
     "builds": [{ "src": "index.js", "use": "@now/node-server" }],
     "routes": [
       {
